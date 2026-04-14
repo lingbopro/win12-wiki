@@ -2,10 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Win12 Online Wiki",
-  description: "Win12 网页版的 Wiki",
+  title: 'Win12 Online Wiki',
+  description: 'Win12 网页版的 Wiki',
+  lang: 'zh-CN',
   srcDir: 'docs',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  // By default Cloudflare removes the .html extention
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
@@ -28,6 +31,10 @@ export default defineConfig({
     docFooter: {
       prev: '上一页',
       next: '下一页'
+    },
+    editLink: {
+      pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/win12-online/win12' }
