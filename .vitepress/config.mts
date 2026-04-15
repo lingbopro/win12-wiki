@@ -23,7 +23,7 @@ export default defineConfig({
         text: 'Wiki',
         items: [
           { text: '主页', link: '/' },
-          { text: '测试页', link: '/test' }
+          { text: '观看宣传片', link: '/watch-promo' }
         ]
       }
     ],
