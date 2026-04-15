@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Win12 Online Wiki',
   description: 'Win12 网页版的 Wiki',
   lang: 'zh-CN',
-  srcDir: 'docs',
+  srcExclude: ['**/README.md'],
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // By default Cloudflare removes the .html extention
   cleanUrls: true,
@@ -33,7 +33,7 @@ export default defineConfig({
       next: '下一页'
     },
     editLink: {
-      pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/docs/:path',
+      pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
     socialLinks: [
