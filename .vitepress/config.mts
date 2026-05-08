@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,20 +25,20 @@ export default defineConfig({
           { text: '主页', link: '/' },
           { text: '观看宣传片', link: '/watch-promo' },
           { text: '加入交流群', link: '/join-chat' },
-        ]
-      }
+        ],
+      },
     ],
 
     docFooter: {
       prev: '上一页',
-      next: '下一页'
+      next: '下一页',
     },
     editLink: {
       pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/:path',
-      text: '在 GitHub 上编辑此页面'
+      text: '在 GitHub 上编辑此页面',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/win12-online/win12' }
-    ]
-  }
-})
+      { icon: 'github', link: 'https://github.com/win12-online/win12' },
+    ],
+  },
+});
