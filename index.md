@@ -10,6 +10,8 @@ win12 是一个由学生开发者使用 HTML、CSS 和 JavaScript 编写的开�
 GitHub **毫无理由地**标记了我们的组织，这使得我们的 GitHub 组织和仓库都无法公开可见。
 
 尽管我们正在向 GitHub 申诉，但我们已经总体迁移到了 Codeberg。请前往 [我们的 Codeberg 组织](https://codeberg.org/win12-online/win12) 查看代码仓库。
+
+有关更多内容，请参见 [Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/statements-of-github)。
 :::
 
 ## FAQ
