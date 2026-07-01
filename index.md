@@ -7,7 +7,9 @@ win12 是一个由学生开发者使用 HTML、CSS 和 JavaScript 编写的开�
 ## [在线体验](https://win12.tech)
 
 ::: warning 注意
-请使用新的 `win12.tech` 域名。旧的域名和存储库已迁移，并将在不久后停用。
+GitHub **毫无理由地**标记了我们的组织，这使得我们的 GitHub 组织和仓库都无法公开可见。
+
+尽管我们正在向 GitHub 申诉，但我们已经总体迁移到了 Codeberg。请前往 [我们的 Codeberg 组织](https://codeberg.org/win12-online/win12) 查看代码仓库。
 :::
 
 ## FAQ
@@ -16,7 +18,7 @@ win12 是一个由学生开发者使用 HTML、CSS 和 JavaScript 编写的开�
 
 是的，任何标榜付费版或含有广告的 Windows 12 与我们无关。
 
-Win12 的源代码公开于 [win12-online/win12](https://github.com/win12-online/win12) 存储库。
+Win12 的源代码公开于 [win12-online/win12 (Codeberg)](https://codeberg.org/win12-online/win12) 存储库。
 
 **我有权搬运这个项目吗？**
 
@@ -24,10 +26,10 @@ Win12 的源代码公开于 [win12-online/win12](https://github.com/win12-online
 
 **我应该如何支持这个项目？**
 
-你可以给我们的 [GitHub 存储库](https://github.com/win12-online/win12) 简单 Star 一下，向我们捐款，或加入这个项目的开发。
+你可以给我们的 [Codeberg 存储库](https://codeberg.org/win12-online/win12) 简单 Star 一下，向我们捐款，或加入这个项目的开发。
 
 <br>
 
 ---
 
-本 Wiki 基于 CC-BY-SA 4.0 授权，并在 [lingbopro/win12-wiki](https://github.com/lingbopro/win12-wiki) 开源。
+本 Wiki 基于 CC-BY-SA 4.0 授权，并在 [lingbopro/win12-wiki (GitHub)](https://github.com/lingbopro/win12-wiki) 开源。

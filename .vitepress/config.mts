@@ -16,6 +16,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '在线体验', link: 'https://win12.tech' },
+      { text: '源代码', link: 'https://codeberg.org/win12-online/win12' },
     ],
 
     sidebar: [
@@ -38,7 +39,7 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页面',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/win12-online/win12' },
+      { icon: 'github', link: 'https://github.com/lingbopro/win12-wiki' },
     ],
   },
 });
