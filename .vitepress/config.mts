@@ -9,6 +9,9 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // By default Cloudflare removes the .html extention
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://win12-wiki.lingbopro.qzz.io',
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
