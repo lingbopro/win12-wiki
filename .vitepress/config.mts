@@ -26,14 +26,14 @@ export default defineConfig({
   },
 
   locales: {
-    root: {
+    zh: {
       label: '简体中文',
       lang: 'zh-CN',
       // link: '/zh/',
 
       themeConfig: {
         nav: [
-          { text: '主页', link: '/' },
+          { text: '主页', link: '/zh/' },
           { text: '在线体验', link: 'https://win12.tech' },
           { text: '源代码', link: 'https://codeberg.org/win12-online/win12' },
         ],
@@ -42,16 +42,16 @@ export default defineConfig({
           {
             text: 'Wiki',
             items: [
-              { text: '主页', link: '/' },
+              { text: '主页', link: '/zh/' },
               {
                 text: '关于 GitHub 暂停公开本组织的声明',
-                link: '/statements-of-github',
+                link: '/zh/statements-of-github',
               },
               {
                 text: '关于 Win12',
                 items: [
-                  { text: '观看宣传片', link: '/watch-promo' },
-                  { text: '加入交流群', link: '/join-chat' },
+                  { text: '观看宣传片', link: '/zh/watch-promo' },
+                  { text: '加入交流群', link: '/zh/join-chat' },
                 ],
               },
             ],

@@ -13,7 +13,7 @@
 ::: warning 注意
 由于 GitHub 毫无理由地标记了我们的组织，因此这些 GitHub 讨论目前无法访问。
 
-有关更多内容，请参见 [Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/statements-of-github)。
+有关更多内容，请参见 [Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/zh/statements-of-github)。
 :::
 
 <del>
