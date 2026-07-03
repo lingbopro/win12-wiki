@@ -3,8 +3,6 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Win12 Online Wiki',
-  description: 'Win12 网页版的 Wiki',
-  lang: 'zh-CN',
   srcExclude: ['**/README.md'],
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // By default Cloudflare removes the .html extention
@@ -16,10 +14,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
 
+    search: {
+      provider: 'local',
+    },
+
     editLink: {
       pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/:path',
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lingbopro/win12-wiki' },
     ],
@@ -29,7 +30,7 @@ export default defineConfig({
     zh: {
       label: '简体中文',
       lang: 'zh-CN',
-      // link: '/zh/',
+      description: 'Win12 网页版项目 wiki',
 
       themeConfig: {
         nav: [
@@ -40,20 +41,16 @@ export default defineConfig({
 
         sidebar: [
           {
-            text: 'Wiki',
+            text: '关于 Win12',
+            collapsed: false,
             items: [
               { text: '主页', link: '/zh/' },
               {
                 text: '关于 GitHub 暂停公开本组织的声明',
                 link: '/zh/statements-of-github',
               },
-              {
-                text: '关于 Win12',
-                items: [
-                  { text: '观看宣传片', link: '/zh/watch-promo' },
-                  { text: '加入交流群', link: '/zh/join-chat' },
-                ],
-              },
+              { text: '观看宣传片', link: '/zh/watch-promo' },
+              { text: '加入交流群', link: '/zh/join-chat' },
             ],
           },
         ],
@@ -72,6 +69,22 @@ export default defineConfig({
     en: {
       label: 'English (WIP)',
       lang: 'en',
+      description: 'Win12 Online project wiki',
+
+      themeConfig: {
+        sidebar: [
+          {
+            text: 'About Win12',
+            collapsed: false,
+            items: [{ text: 'Home', link: '/en/' }],
+          },
+        ],
+
+        editLink: {
+          pattern: 'https://github.com/lingbopro/win12-wiki/edit/main/:path',
+          text: 'Edit this page on GitHub',
+        },
+      },
     },
   },
 });
