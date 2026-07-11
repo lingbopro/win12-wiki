@@ -45,12 +45,24 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '主页', link: '/zh/' },
-              {
-                text: '关于 GitHub 暂停公开本组织的声明',
-                link: '/zh/statements-of-github',
-              },
               { text: '观看宣传片', link: '/zh/watch-promo' },
               { text: '加入交流群', link: '/zh/join-chat' },
+            ],
+          },
+          {
+            text: '杂项',
+            collapsed: false,
+            items: [
+              {
+                text: '已存档文章',
+                collapsed: true,
+                items: [
+                  {
+                    text: '关于 GitHub 暂停公开本组织的声明',
+                    link: '/zh/statements-of-github',
+                  },
+                ],
+              },
             ],
           },
         ],
