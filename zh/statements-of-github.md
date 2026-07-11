@@ -16,4 +16,6 @@ Win12 Online 组织自成立以来，就致力于整合 Win12 项目（以下简
 
 感谢所有 Win12 项目的用户一路真心相伴！
 
-版权说明：本文来自 [win12-online/statements (Codeberg)](https://codeberg.org/win12-online/statements)，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) 授权。
+Win12 团队
+
+版权说明：本文来自 [win12-online/statements (Codeberg)](https://codeberg.org/win12-online/statements)，原文采用 [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) 协议授权。
