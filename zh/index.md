@@ -6,12 +6,12 @@ win12 是一个由学生开发者使用 HTML、CSS 和 JavaScript 编写的开�
 
 ## [在线体验](https://win12.tech)
 
-::: warning 注意
-GitHub **毫无理由地**标记了我们的组织，这使得我们的 GitHub 组织和仓库都无法公开可见。
+::: info
+GitHub 目前已恢复我们组织的可见性，您可以在 [此处](https://github.com/win12-online) 查看我们的组织。
 
-尽管我们正在向 GitHub 申诉，但我们已经总体迁移到了 Codeberg。请前往 [我们的 Codeberg 组织](https://codeberg.org/win12-online/win12) 查看代码仓库。
+我们曾使用的 Codeberg 组织位于 [此处](https://codeberg.org/win12-online/win12)，但很可能不会继续更新。
 
-有关更多内容，请参见 [Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/zh/statements-of-github)。
+有关更多内容，请参见 [[存档] Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/zh/statements-of-github)。
 :::
 
 ## FAQ
@@ -20,7 +20,7 @@ GitHub **毫无理由地**标记了我们的组织，这使得我们的 GitHub �
 
 是的，任何标榜付费版或含有广告的 Windows 12 与我们无关。
 
-Win12 的源代码公开于 [win12-online/win12 (Codeberg)](https://codeberg.org/win12-online/win12) 存储库。
+Win12 的源代码公开于 [win12-online/win12](https://github.com/win12-online/win12) 存储库。
 
 **我有权搬运这个项目吗？**
 
@@ -28,10 +28,10 @@ Win12 的源代码公开于 [win12-online/win12 (Codeberg)](https://codeberg.org
 
 **我应该如何支持这个项目？**
 
-你可以给我们的 [Codeberg 存储库](https://codeberg.org/win12-online/win12) 简单 Star 一下，向我们捐款，或加入这个项目的开发。
+你可以给我们的 [GitHub 存储库](https://github.com/win12-online/win12) 简单 Star 一下，向我们捐款，或加入这个项目的开发。
 
 <br>
 
 ---
 
-本 Wiki 基于 CC-BY-SA 4.0 授权，并在 [lingbopro/win12-wiki (GitHub)](https://github.com/lingbopro/win12-wiki) 开源。
+本 Wiki 基于 CC-BY-SA 4.0 授权，并在 [lingbopro/win12-wiki](https://github.com/lingbopro/win12-wiki) 开源。

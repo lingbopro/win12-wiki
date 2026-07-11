@@ -25,4 +25,4 @@
 
 </del>
 
-如果你发现问题或者有功能建议，欢迎在 [issues](https://codeberg.org/win12-online/win12/issues) 中反馈！
+如果你发现问题或者有功能建议，欢迎在 [issues](https://github.com/win12-online/win12/issues) 中反馈！
