@@ -34,4 +34,4 @@ Win12 的源代码公开于 [win12-online/win12](https://github.com/win12-online
 
 ---
 
-本 Wiki 基于 CC-BY-SA 4.0 授权，并在 [lingbopro/win12-wiki](https://github.com/lingbopro/win12-wiki) 开源。
+本 Wiki 基于 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) 授权，并在 [lingbopro/win12-wiki](https://github.com/lingbopro/win12-wiki) 开源。
