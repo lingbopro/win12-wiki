@@ -14,6 +14,10 @@ GitHub 目前已恢复我们组织的可见性，您可以在 [此处](https://g
 有关更多内容，请参见 [[存档] Win12 Online 组织关于 Github 暂停对外公开本组织的声明](/zh/statements-of-github)。
 :::
 
+::: tip
+我们的仓库还未完全恢复——具体来说，开启的 PR 和 Discussions 的列表目前无法从 GitHub 网页版上直接查看。你可以使用 [我们的临时 PR 列表站](https://win12-online.github.io/prlist/) 查看当前打开的 PR。
+:::
+
 ## FAQ
 
 **这是免费开源的吗？**
