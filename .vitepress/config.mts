@@ -54,6 +54,20 @@ export default defineConfig({
             ],
           },
           {
+            text: '桌面版 (Win12-desktop)',
+            collapsed: false,
+            items: [
+              {
+                text: '概述',
+                link: '/zh/desktop/'
+              },
+              {
+                text: '安装',
+                link: '/zh/desktop/installation'
+              },
+            ]
+          },
+          {
             text: '杂项',
             collapsed: false,
             items: [
