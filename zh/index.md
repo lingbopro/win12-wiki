@@ -15,7 +15,7 @@ GitHub 目前已恢复我们组织的可见性，您可以在 [此处](https://g
 :::
 
 ::: tip
-我们的仓库还未完全恢复——具体来说，开启的 PR 和 Discussions 的列表目前无法从 GitHub 网页版上直接查看。你可以使用 [我们的临时 PR 列表站](https://win12-online.github.io/prlist/) 查看当前打开的 PR。
+我们仓库的 PR 列表已经可以正常访问，但打开的 Discussions 的列表依然不完整（在 GitHub Mobile 上尤其如此）。如果您无法查看讨论列表，请使用 GitHub 网页版并在所有讨论中检索。
 :::
 
 ## FAQ
