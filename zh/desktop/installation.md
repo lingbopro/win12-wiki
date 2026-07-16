@@ -43,22 +43,21 @@ xattr -cr /Applications/Win12.app
 ### 使用 deb 软件包（Debian/Ubuntu）
 
 1. 从 [Releases 页面](https://github.com/win12-online/win12-desktop/releases/latest) 下载 `.deb` 软件包
-2. 在终端中使用 `dpkg` 安装软件包：
-   ```shell
+2. 在终端中使用 `apt` 或 `dpkg` 安装软件包：
+   ::: code-group
+   ```shell [apt]
+   sudo apt install ./Win12_x.x.x_amd64.deb
+   ```
+   ```shell [dpkg]
    sudo dpkg -i Win12_x.x.x_amd64.deb
    ```
+   :::
    （将 `Win12_x.x.x_amd64.deb` 替换为你下载的文件的实际位置）
 
 ### 使用 rpm 软件包（Fedora/RedHat）
 
 1. 从 [Releases 页面](https://github.com/win12-online/win12-desktop/releases/latest) 下载 `.rpm` 软件包
-2. 在终端中使用 `rpm` 安装软件包：
-   ```shell
-   sudo rpm -ivh Win12_x.x.x_amd64.rpm
-   ```
-   （将 `Win12_x.x.x_amd64.rpm` 替换为你下载的文件的实际位置）
-
-   或者你可以使用 `dnf` 或 `yum`:
+2. 在终端中使用 `dnf` / `yum` 或 `rpm` 安装软件包：
    ::: code-group
    ```shell [dnf]
    sudo dnf install Win12_x.x.x_amd64.rpm
@@ -66,4 +65,8 @@ xattr -cr /Applications/Win12.app
    ```shell [yum]
    sudo yum install Win12_x.x.x_amd64.rpm
    ```
+   ```shell [rpm]
+   sudo rpm -ivh Win12_x.x.x_amd64.rpm
+   ```
    :::
+   （将 `Win12_x.x.x_amd64.rpm` 替换为你下载的文件的实际位置）
