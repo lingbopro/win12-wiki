@@ -59,13 +59,13 @@ export default defineConfig({
             items: [
               {
                 text: '概述',
-                link: '/zh/desktop/'
+                link: '/zh/desktop/',
               },
               {
                 text: '安装',
-                link: '/zh/desktop/installation'
+                link: '/zh/desktop/installation',
               },
-            ]
+            ],
           },
           {
             text: '杂项',
