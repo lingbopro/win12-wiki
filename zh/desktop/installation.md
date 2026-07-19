@@ -40,6 +40,19 @@ xattr -cr /Applications/Win12.app
    （将 `Win12_x.x.x_amd64.AppImage` 替换为你下载的文件的实际位置）
 3. 从图形界面或终端中运行该 AppImage 文件
 
+### 使用 AUR（Archlinux）
+
+您可以直接从 AUR 安装 [`win12-desktop-bin`](https://aur.archlinux.org/packages/win12-desktop-bin) 软件包（由 [@lingbopro](https://github.com/lingbopro) 维护）
+
+::: code-group
+```shell [paru]
+paru -S win12-desktop-bin
+```
+```shell [yay]
+yay -S win12-desktop-bin
+```
+:::
+
 ### 使用 deb 软件包（Debian/Ubuntu）
 
 1. 从 [Releases 页面](https://github.com/win12-online/win12-desktop/releases/latest) 下载 `.deb` 软件包
